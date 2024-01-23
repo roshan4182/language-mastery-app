@@ -56,8 +56,6 @@ Welcome to Learn_Word, a Python-based application designed to enhance your vocab
 2. Customization:
 >>Adjust notification timings and difficulty levels in the settings for a personalized learning experience.
 
-## License:-
->>This project is licensed under the MIT License.
 
 ## Conclusion:-
 >>Thank you for choosing Learn_Word! , embark on your language learning journey, and unlock the doors to linguistic proficiency and cultural understanding.
