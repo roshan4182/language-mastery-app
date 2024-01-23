@@ -1,0 +1,12 @@
+@startuml Activity_Diagram
+left to right direction
+:User: as User
+:Learn Word: as LearnWord
+:Notification: as Notification
+:Words API: as WordsAPI
+
+User --> LearnWord: Learns Words
+LearnWord --> Notification: Sets Notifications
+LearnWord --> WordsAPI: Requests Words
+
+@enduml

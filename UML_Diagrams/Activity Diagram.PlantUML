@@ -1,0 +1,8 @@
+@startuml
+:Language Learning Game System;
+:User;
+:Select Language and Start Lesson;
+:Lesson;
+:Quiz;
+:Result;
+@enduml
