@@ -60,3 +60,33 @@ Welcome to Learn_Word, a Python-based application designed to enhance your vocab
 ## Conclusion:-
 >>Thank you for choosing Learn_Word! , embark on your language learning journey, and unlock the doors to linguistic proficiency and cultural understanding.
 
+
+
+
+##My_Project:
+
+
+##Changes_Made_With_The_Branches:
+
+
+[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/7a90c821da32bb4009ef58da937e76a841ab05e7)
+[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/c4f02ad095a33c224945c11d565d9df338c4ac74)
+[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/41b619b3951da4d501e519a28319d755411173bd)
+[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/48c5840f2b2abcd64787f033b3a42e0af383fb65)
+[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/eed26bf1081f5b1405807f2fd222ec7eb594dc7d)
+[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/bf727ef5460679ea35ba6ce23e15ca21262ce7bc)
+[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/f6b40de9989ad3987963043be32ea6ce4be14c89)
+[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/761ecd5e82a7c20992b780a48753fd02321395e1)
+[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/d031b4bcbc6bf9bcab356831330e7db4c7d2fff8)
+[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/a64a577ef77e53ce513b0020f7db85e4e9c13009)
+[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/189733d1ff4708045cc72d7582f9ac10b14299f1)
+
+
+
+
+
+
+
+
+
+
