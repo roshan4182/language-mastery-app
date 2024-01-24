@@ -82,6 +82,11 @@ Welcome to Learn_Word, a Python-based application designed to enhance your vocab
 [Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/189733d1ff4708045cc72d7582f9ac10b14299f1)
 
 
+## UML Diagrams:
+
+1. CLASS_DIAGRAM:
+   
+![Class_Diagram2](https://github.com/roshan4182/language-mastery-app/assets/149868016/e3f5a2d9-1545-471f-8ae6-8bd795fef590)
 
 
 
