@@ -88,6 +88,18 @@ Welcome to Learn_Word, a Python-based application designed to enhance your vocab
    
 ![Class_Diagram2](https://github.com/roshan4182/language-mastery-app/assets/149868016/e3f5a2d9-1545-471f-8ae6-8bd795fef590)
 
+2.  PACKAGE_DIAGRAM:
+
+![Package_Diagram1](https://github.com/roshan4182/language-mastery-app/assets/149868016/c683ab2a-f280-441e-a95c-771334b873f8)
+
+
+3. CASE_DIAGRAM:
+
+
+
+![Case_Diagram1](https://github.com/roshan4182/language-mastery-app/assets/149868016/4ea64020-3155-48b5-b3aa-160161c44f3f)
+
+
 
 
 
