@@ -7,16 +7,16 @@ Welcome to Learn_Word, a Python-based application designed to enhance your vocab
  ## Table Of Contents: ##
 
 ## 1. Code(https://github.com/roshan4182/language-mastery-app/blob/main/README.md#code)
-## 2.UML Diagrams
-## 3.Requirements Engineering
-## 4.Analysis
-## 5.DDD
-## 6.Metrics
-## 7.Clean Code Development
-## 8.Build Management
-## 9.Unit Tests
-## 10.IDE
-## 11.Functional Programming
+## 2.UML Diagrams(https://github.com/roshan4182/language-mastery-app/blob/main/README.md#uml-diagrams)
+## 3.Requirements Engineering()
+## 4.Analysis()
+## 5.DDD()
+## 6.Metrics()
+## 7.Clean Code Development()
+## 8.Build Management()
+## 9.Unit Tests()
+## 10.IDE()
+## 11.Functional Programming()
 
 
 ## Code  ##
