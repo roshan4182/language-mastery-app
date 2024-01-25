@@ -10,7 +10,7 @@ Welcome to Learn_Word, a Python-based application designed to enhance your vocab
 ## 2. Changes in Braches()
 ## 2.UML Diagrams(https://github.com/roshan4182/language-mastery-app/blob/main/README.md#uml-diagrams)
 ## 3.Requirements Engineering(https://github.com/roshan4182/language-mastery-app/blob/main/README.md#requirements-engineering)
-## 4.Analysis()
+## 4.Analysis(https://github.com/roshan4182/language-mastery-app/blob/main/README.md#analysis)
 ## 5.DDD()
 ## 6.Metrics()
 ## 7.Clean Code Development()
@@ -90,7 +90,7 @@ TO ACCESS THE CODE : Language-Mastery-app()
 
 
 
-## CHECKLIST:
+## ANALYSIS:
 
 
 ### Language-Mastery-App Analysis Checklist(https://www.notion.so/Language-Mastery-App-CHECKLIST-7671f3d50e9346a791264111e3678d93?pvs=4)
