@@ -4,6 +4,25 @@
 
 Welcome to Learn_Word, a Python-based application designed to enhance your vocabulary with a new word every day. This app caters to a diverse audience, including travelers, immigrants, language enthusiasts, and corporate professionals, aiming to bridge language gaps and promote cultural understanding.
 
+ ## Table Of Contents: ##
+
+## 1. Code
+## 2.UML Diagrams
+## 3.Requirements Engineering
+## 4.Analysis
+## 5.DDD
+## 6.Metrics
+## 7.Clean Code Development
+## 8.Build Management
+## 9.Unit Tests
+## 10.IDE
+## 11.Functional Programming
+
+
+##  ##
+
+TO ACCESS THE CODE : 
+
 ## Features:-
 
 1. Everyday a new word:
