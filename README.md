@@ -19,7 +19,7 @@ Welcome to Learn_Word, a Python-based application designed to enhance your vocab
 ## 11.Functional Programming
 
 
-## https://github.com/roshan4182/language-mastery-app/blob/main/README.md#1-code  ##
+## Code  ##
 
 TO ACCESS THE CODE : 
 
