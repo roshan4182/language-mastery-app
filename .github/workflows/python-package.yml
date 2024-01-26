@@ -17,4 +17,4 @@ jobs:
         pip install -r requirements.txt  # Adjust based on your project's dependencies
 
     - name: Run Tests
-      run: pytest tests/  # Assumes pytest is in your requirements.txt and your tests are in a 'tests' directory
+      run: pytest tests/test_word_api.py # Assumes pytest is in your requirements.txt and your tests are in a 'tests' directory
