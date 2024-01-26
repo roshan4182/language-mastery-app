@@ -121,22 +121,22 @@ DDD is basically an approach of software development which concentrates on what 
 
 
 ## Metrics
-
-![Screenshot 2024-01-26 at 4 31 18 AM](https://github.com/roshan4182/language-mastery-app/assets/149868016/664b5c5a-e494-4908-838e-16d4b94e8ed8)
-
+![Image 26-01-24 at 4 53 AM](https://github.com/roshan4182/language-mastery-app/assets/149868016/498dfdda-3d7f-4355-b178-9ced78f6cd45)
 
 
-[](https://sonarcloud.io/summary/new_code?id=roshan4182_language-mastery-app)
 
-[](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=roshan4182_language-mastery-app)
 
-[](https://sonarcloud.io/project/issues?resolved=false&types=CODE_SMELL&id=roshan4182_language-mastery-app)
+[Quality gate_Passed](https://sonarcloud.io/summary/new_code?id=roshan4182_language-mastery-app)
 
-[](https://sonarcloud.io/project/issues?resolved=false&types=VULNERABILITY&id=roshan4182_language-mastery-app)
+[Reliability](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=roshan4182_language-mastery-app)
 
-[](https://sonarcloud.io/project/security_hotspots?id=roshan4182_language-mastery-app)
+[Maintanability](https://sonarcloud.io/project/issues?resolved=false&types=CODE_SMELL&id=roshan4182_language-mastery-app)
 
-[](https://sonarcloud.io/component_measures?id=roshan4182_language-mastery-app&metric=duplicated_lines_density&view=list)
+[Security](https://sonarcloud.io/project/issues?resolved=false&types=VULNERABILITY&id=roshan4182_language-mastery-app)
+
+[SecurityReview](https://sonarcloud.io/project/security_hotspots?id=roshan4182_language-mastery-app)
+
+[Duplications](https://sonarcloud.io/component_measures?id=roshan4182_language-mastery-app&metric=duplicated_lines_density&view=list)
 
 
 
