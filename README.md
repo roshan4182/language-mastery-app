@@ -51,16 +51,13 @@ TO ACCESS THE CODE : Language-Mastery-app()
    This PlantUML diagram illustrates the relationships and dependencies among key entities in a language learning application. The "Word" class represents a vocabulary item with attributes such as id, text, meaning, and translations. Users are represented by the "User" class, which includes attributes like id, username, difficultyLevel, and notificationTime. Learning sessions, depicted by the "LearningSession" class, involve users and are associated with specific words.
 
 The diagram further introduces the "Language" class, representing different languages in the application. The "WordAPI" class handles interactions with an external word API, defining attributes like API_KEY and WORD_API_URL. Notifications are managed by the "Notifications" class, providing a method to show word dialogues. The application's data persistence is facilitated by the "WordRepository" and "UserRepository" classes, responsible for saving and retrieving word and user data, respectively. The directional associations between entities indicate relationships, such as a word belonging to a learning session, a learning session involving a user, and users being associated with repositories for data management. Overall, the diagram provides a concise overview of the core entities and their interactions within the language learning application.
-   
-![Class_Diagram2](https://github.com/roshan4182/language-mastery-app/assets/149868016/e3f5a2d9-1545-471f-8ae6-8bd795fef590)
-
+https://github.com/roshan4182/language-mastery-app/blob/main/Class_Diagram2.png
 2.  PACKAGE_DIAGRAM:
 
    This PlantUML diagram represents the structure of a hypothetical "language-mastery-app." The app is organized into several components within distinct packages. The "app" package includes main functionality implemented in "main.py," notifications in "notification.py," and interaction with a word API in "word_api.py." The "backend" package comprises an "api" package with an "__init__.py" file and "word_api.py" for API-related functionality, a "database" package with "__init__.py" and "models.py" for database-related functionality, and standalone scripts like "populate_languages.py" and "server.py."
 
 Additionally, there is a "features" package containing "__init__.py" and "new_features.py" for new app features, a "shared" package with "__init__.py" and "words_api_logic.py" for shared logic, and a "tests" package with "__init__.py" and "test_word_api.py" for testing the word API. The diagram provides a visual representation of the app's structural organization, helping developers understand the relationships and dependencies between different components.
-
-![Package_Diagram1](https://github.com/roshan4182/language-mastery-app/assets/149868016/c683ab2a-f280-441e-a95c-771334b873f8)
+https://github.com/roshan4182/language-mastery-app/blob/main/Package_Diagram1.png
 
 
 3. ACTIVITY_DIAGRAM:
@@ -68,11 +65,7 @@ Additionally, there is a "features" package containing "__init__.py" and "new_fe
    This PlantUML diagram outlines the flow of user interaction within a language learning application. The process begins with the user initiating interaction. The user is then presented with the option to "Set Notification Time." If the user chooses to set the notification time, they proceed to input a specific time in HH:MM:SS format, leading to the successful setting of the notification.
 
 Subsequently, if the user opts to receive notifications ("User chooses yes"), the application proceeds to fetch the "Word of the Day" from a WordsAPI, displaying a random word and its meaning in a dialogue. The user engages in learning the presented word, and the application adjusts the difficulty level accordingly. The learning process is marked as complete, and the user is shown achievement or level progress. Regardless of the user's choice to receive notifications or not, the interaction loop returns to the initial state, allowing for continuous engagement. This diagram provides a clear visualization of the decision flow in the user's language learning journey within the application.
-
-   
-![Activity_Diagram1](https://github.com/roshan4182/language-mastery-app/assets/149868016/d8af20d9-5cc7-470a-81c7-0a5b3b7596b6)
-
-
+https://github.com/roshan4182/language-mastery-app/blob/main/Activity_Diagram1.png
 
 
 
