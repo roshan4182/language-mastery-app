@@ -47,17 +47,32 @@ TO ACCESS THE CODE : Language-Mastery-app()
 ## UML Diagrams:
 
 1. CLASS_DIAGRAM:
+
+   This PlantUML diagram illustrates the relationships and dependencies among key entities in a language learning application. The "Word" class represents a vocabulary item with attributes such as id, text, meaning, and translations. Users are represented by the "User" class, which includes attributes like id, username, difficultyLevel, and notificationTime. Learning sessions, depicted by the "LearningSession" class, involve users and are associated with specific words.
+
+The diagram further introduces the "Language" class, representing different languages in the application. The "WordAPI" class handles interactions with an external word API, defining attributes like API_KEY and WORD_API_URL. Notifications are managed by the "Notifications" class, providing a method to show word dialogues. The application's data persistence is facilitated by the "WordRepository" and "UserRepository" classes, responsible for saving and retrieving word and user data, respectively. The directional associations between entities indicate relationships, such as a word belonging to a learning session, a learning session involving a user, and users being associated with repositories for data management. Overall, the diagram provides a concise overview of the core entities and their interactions within the language learning application.
    
 ![Class_Diagram2](https://github.com/roshan4182/language-mastery-app/assets/149868016/e3f5a2d9-1545-471f-8ae6-8bd795fef590)
 
 2.  PACKAGE_DIAGRAM:
 
+   This PlantUML diagram represents the structure of a hypothetical "language-mastery-app." The app is organized into several components within distinct packages. The "app" package includes main functionality implemented in "main.py," notifications in "notification.py," and interaction with a word API in "word_api.py." The "backend" package comprises an "api" package with an "__init__.py" file and "word_api.py" for API-related functionality, a "database" package with "__init__.py" and "models.py" for database-related functionality, and standalone scripts like "populate_languages.py" and "server.py."
+
+Additionally, there is a "features" package containing "__init__.py" and "new_features.py" for new app features, a "shared" package with "__init__.py" and "words_api_logic.py" for shared logic, and a "tests" package with "__init__.py" and "test_word_api.py" for testing the word API. The diagram provides a visual representation of the app's structural organization, helping developers understand the relationships and dependencies between different components.
+
 ![Package_Diagram1](https://github.com/roshan4182/language-mastery-app/assets/149868016/c683ab2a-f280-441e-a95c-771334b873f8)
 
 
-3. CASE_DIAGRAM:
+3. ACTIVITY_DIAGRAM:
 
-![Case_Diagram1](https://github.com/roshan4182/language-mastery-app/assets/149868016/4ea64020-3155-48b5-b3aa-160161c44f3f)
+   This PlantUML diagram outlines the flow of user interaction within a language learning application. The process begins with the user initiating interaction. The user is then presented with the option to "Set Notification Time." If the user chooses to set the notification time, they proceed to input a specific time in HH:MM:SS format, leading to the successful setting of the notification.
+
+Subsequently, if the user opts to receive notifications ("User chooses yes"), the application proceeds to fetch the "Word of the Day" from a WordsAPI, displaying a random word and its meaning in a dialogue. The user engages in learning the presented word, and the application adjusts the difficulty level accordingly. The learning process is marked as complete, and the user is shown achievement or level progress. Regardless of the user's choice to receive notifications or not, the interaction loop returns to the initial state, allowing for continuous engagement. This diagram provides a clear visualization of the decision flow in the user's language learning journey within the application.
+
+   
+![Activity_Diagram1](https://github.com/roshan4182/language-mastery-app/assets/149868016/d8af20d9-5cc7-470a-81c7-0a5b3b7596b6)
+
+
 
 
 
@@ -90,6 +105,7 @@ TO ACCESS THE CODE : Language-Mastery-app()
 
 
 
+
 ## ANALYSIS:
 
 
@@ -98,33 +114,42 @@ TO ACCESS THE CODE : Language-Mastery-app()
 ### Language-Mastery-App Analysis(https://www.notion.so/Language-Mastery-App-Analysis-299b01216c414780b455faea677fba82?pvs=4)
 
 
+### DDD: 
 
-      
+DDD is basically an approach of software development which concentrates on what real- world problems a software system has to solve.With the help of shared language(UL) communication between technical and non technical teams are more clearer.In order to simplify the design of the system or the software it uses concepts like Aggregates, Repositories and Domain Events.
+[Pdf.pdf](https://github.com/roshan4182/language-mastery-app/files/14059437/Pdf.pdf)
+
+
+## Metrics
+
+![Screenshot 2024-01-26 at 4 31 18 AM](https://github.com/roshan4182/language-mastery-app/assets/149868016/664b5c5a-e494-4908-838e-16d4b94e8ed8)
+
+
+
+[](https://sonarcloud.io/summary/new_code?id=roshan4182_language-mastery-app)
+
+[](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=roshan4182_language-mastery-app)
+
+[](https://sonarcloud.io/project/issues?resolved=false&types=CODE_SMELL&id=roshan4182_language-mastery-app)
+
+[](https://sonarcloud.io/project/issues?resolved=false&types=VULNERABILITY&id=roshan4182_language-mastery-app)
+
+[](https://sonarcloud.io/project/security_hotspots?id=roshan4182_language-mastery-app)
+
+[](https://sonarcloud.io/component_measures?id=roshan4182_language-mastery-app&metric=duplicated_lines_density&view=list)
+
+
+
+### Clean Code Development:
+
+Clean Code Development (CCD) focuses on writing code that is easy to read, understand, and maintain.
 
 
 
 
 
-## Features:-
 
-1. Everyday a new word:
->>Start your day with a unique word delivered to your device everyday, enriching your vocabulary across various contexts.
-  Explore words relevant to travel, work, and everyday life.
 
-2. Adaptive Learning Paths:
->>Personalize your learning experience with adaptive algorithms adjusting content difficulty based on your progress.
-  Unlock achievements and progress through levels as you master new words.
-
-3. Real-life Contexts:
->>Dive in interactive lessons simulating words which will come in handy and definitely upgrade your vocabulary resulting in good communication.
-  Practice language skills in practical contexts.
-
-4. Multilingual Support:
->>Explore a wide range of languages, catering to users with diverse linguistic backgrounds.
-  Support for major global languages ensures easiness.
-
-5. Gamified Learning Experience
->>Transform learning into an enjoyable journey with entertaining elements including challenges.
 
 
 
@@ -136,35 +161,15 @@ TO ACCESS THE CODE : Language-Mastery-app()
    *API Integration: Flask-RESTful
    *Database: SQLite
 
-   
-## Configuration:-
->>Customization Options: Users can customize notification timings, difficulty levels, and preferred word categories.
-## Notifications:-
->>Personalized Notifications: Users can set the time of day to receive the daily word notification.
-
-## Domain Descriptions:-
-
-1.Dashboard
->>The dashboard serves as a centralized platform providing insights into user engagement, learning progress, and community interactions. Key features include:
-
-2.User Analytics: 
->>Track user activity, including the number of words learned, time spent on the app, and participation in challenges.
-
-## Usage:-
-
-1. Navigation:
->>Explore daily words by navigating through the app using the intuitive user interface.
-2. Customization:
->>Adjust notification timings and difficulty levels in the settings for a personalized learning experience.
-
-
-## Conclusion:-
->>Thank you for choosing Learn_Word! , embark on your language learning journey, and unlock the doors to linguistic proficiency and cultural understanding.
 
 
 
 
-## My_Project:
+
+
+
+
+
 
 
 
