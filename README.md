@@ -129,7 +129,7 @@ DDD is basically an approach of software development which concentrates on what 
 
 
 
-[](https://sonarcloud.io/summary/new_code?id=roshan4182_language-mastery-app)
+[quality gate](https://sonarcloud.io/summary/new_code?id=roshan4182_language-mastery-app)
 
 [Reliability](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=roshan4182_language-mastery-app)
 
