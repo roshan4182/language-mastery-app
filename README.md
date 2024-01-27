@@ -81,13 +81,13 @@ Subsequently, if the user opts to receive notifications ("User chooses yes"), th
 5. Monitoring and Analytics.
 6. Documentation.
 
-## Trello(https://trello.com/b/vrps9Md5/language-mastery-app)
+## [Trello](https://trello.com/b/vrps9Md5/language-mastery-app)
 
  ** Tasklist **
  >>  [Screenshot1](https://github.com/roshan4182/language-mastery-app/blob/main/Images/Trello1.png)
  >>  [Screenshot2](https://github.com/roshan4182/language-mastery-app/blob/main/Images/Trello2.png)
 
-## Jira(https://privaterelay-nj5tfybqkh.atlassian.net/jira/software/projects/STUD/boards/2?atlOrigin=eyJpIjoiMGY1NDRhMGQ3M2FjNDE3N2JkYzM5MmE3ZWE5NWNjYzciLCJwIjoiaiJ9)
+## [Jira](https://privaterelay-nj5tfybqkh.atlassian.net/jira/software/projects/STUD/boards/2?atlOrigin=eyJpIjoiMGY1NDRhMGQ3M2FjNDE3N2JkYzM5MmE3ZWE5NWNjYzciLCJwIjoiaiJ9)
 
 ** Kanboard **
  >> [Screenshot1](https://github.com/roshan4182/language-mastery-app/blob/main/Images/Jira1.png)
@@ -99,9 +99,9 @@ Subsequently, if the user opts to receive notifications ("User chooses yes"), th
 ## ANALYSIS:
 
 
-### Language-Mastery-App Analysis Checklist(https://www.notion.so/Language-Mastery-App-CHECKLIST-7671f3d50e9346a791264111e3678d93?pvs=4)
+### [Language-Mastery-App Analysis Checklist](https://www.notion.so/Language-Mastery-App-CHECKLIST-7671f3d50e9346a791264111e3678d93?pvs=4)
 
-### Language-Mastery-App Analysis(https://www.notion.so/Language-Mastery-App-Analysis-299b01216c414780b455faea677fba82?pvs=4)
+### [Language-Mastery-App Analysis](https://www.notion.so/Language-Mastery-App-Analysis-299b01216c414780b455faea677fba82?pvs=4)
 
 
 ### DDD: 
