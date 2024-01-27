@@ -156,7 +156,15 @@ Build management for the Language Mastery App project has been implemented using
 
 Python CI
 
+## IDE
 
+I have createed this project on Visual Code IDE,and the shortcuts which are my favourite when using this Environment are as follows:
+
+F5 : Run and Debug
+Ctrl + ] / Ctrl + [ : Indentation
+Ctrl + / : Comment/Uncomment code lines
+Ctrl + B : Show or hide the sidebar
+Ctrl + Shift + P : Open the command palette
 
 
 
