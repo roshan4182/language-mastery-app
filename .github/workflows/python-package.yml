@@ -1,1 +1,20 @@
-runs-on: self-hosted
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.11.5  # Set the Python version you need
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt  # Adjust based on your project's dependencies
+
+    - name: Run Tests
+      run: pytest tests/test_word_api.py # Assumes pytest is in your requirements.txt and your tests are in a 'tests' directory

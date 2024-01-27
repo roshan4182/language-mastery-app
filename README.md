@@ -7,39 +7,28 @@ Welcome to Learn_Word, a Python-based application designed to enhance your vocab
  ## Table Of Contents: ##
 
 ## 1. Code(https://github.com/roshan4182/language-mastery-app/blob/main/README.md#code)
-## 2. Changes in Braches()
+## 2. Changes in Braches(https://github.com/roshan4182/language-mastery-app#changes_made_with_the_branches)
 ## 2.UML Diagrams(https://github.com/roshan4182/language-mastery-app/blob/main/README.md#uml-diagrams)
 ## 3.Requirements Engineering(https://github.com/roshan4182/language-mastery-app/blob/main/README.md#requirements-engineering)
 ## 4.Analysis(https://github.com/roshan4182/language-mastery-app/blob/main/README.md#analysis)
 ## 5.DDD(https://github.com/roshan4182/language-mastery-app#ddd)
-## 6.Metrics()
-## 7.Clean Code Development()
-## 8.Build Management()
-## 9.Unit Tests()
-## 10.IDE()
-## 11.Functional Programming()
+## 6.Metrics(https://github.com/roshan4182/language-mastery-app/tree/main#metrics)
+## 7.Clean Code Development(https://github.com/roshan4182/language-mastery-app/tree/main#clean-code-development)
+## 8.Build Management(https://github.com/roshan4182/language-mastery-app/tree/main#build-management)
+## 9.Unit Tests(https://github.com/roshan4182/language-mastery-app/tree/main#unit-tests)
+## 10.IDE(https://github.com/roshan4182/language-mastery-app#ide)
+## 11.Functional Programming(https://github.com/roshan4182/language-mastery-app#functional-programming)
 
 
 ## Code  ##
 
-TO ACCESS THE CODE : Language-Mastery-app()
+TO ACCESS THE MAIN CODE : [Language-Mastery-app](https://github.com/roshan4182/language-mastery-app/blob/main/app/main.py)
 
 
 ## Changes_Made_With_The_Branches:##
 
 
-[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/7a90c821da32bb4009ef58da937e76a841ab05e7)
-[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/c4f02ad095a33c224945c11d565d9df338c4ac74)
-[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/41b619b3951da4d501e519a28319d755411173bd)
-[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/48c5840f2b2abcd64787f033b3a42e0af383fb65)
-[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/eed26bf1081f5b1405807f2fd222ec7eb594dc7d)
-[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/bf727ef5460679ea35ba6ce23e15ca21262ce7bc)
-[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/f6b40de9989ad3987963043be32ea6ce4be14c89)
-[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/761ecd5e82a7c20992b780a48753fd02321395e1)
-[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/d031b4bcbc6bf9bcab356831330e7db4c7d2fff8)
-[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/a64a577ef77e53ce513b0020f7db85e4e9c13009)
-[Part_B(1)](https://github.com/roshan4182/language-mastery-app/commit/189733d1ff4708045cc72d7582f9ac10b14299f1)
-
+[commits](https://github.com/roshan4182/language-mastery-app/commits?author=roshan4182)
 
 
 
@@ -152,27 +141,81 @@ Clean Code Development (CCD) focuses on writing code that is easy to read, under
 
 ### Build Management: 
 
+
 Build management for the Language Mastery App project has been implemented using Github Actions
 
 Python CI
 
+Build management for the Language Mastery App project has been implemented using [Github Actions](https://github.com/roshan4182/language-mastery-app/actions)
+
+[Python CI](https://github.com/roshan4182/language-mastery-app/actions)
 
 
 
+### Unit Tests
+
+The unit tests has been done in 2 parts and is written using the unittest framework in Python.
+
+[Unit Test 1](https://github.com/roshan4182/language-mastery-app/blob/main/tests/test_main.py) [Unit Test 2](https://github.com/roshan4182/language-mastery-app/blob/main/tests/test_word_api.py)
 
 
 
+1. [TestLearnWordApp Class](TestLearnWordApp)
+
+ [test_set_notification_time](test_set_notification_time):
+ For TestLearnWordApp, it uses the unittest.mock.patch decorator to mock the user input and plyer.notification.schedule function. It tests whether the set_notification_time method correctly calls the askstring and schedule functions.
+
+ [test_button_click](test_button_click):
+ The test_button_click method tests if clicking the "Get Word of the Day" button correctly invokes the get_word_of_the_day method.
+
+ [test_get_word](test_get_word):
+ The test_get_word method tests the get_word method of the WordAPI class returns a dictionary with keys "word" and "definition." It is using the unittest framework along with mocking to isolate and test the behavior of the get_word method independently. The assertions verify the expected structure of the output dictionary.
 
 
-## Frontend:-
-   *App Framework: Tkinter
-   *UI/UX Design: canva
-## Backend:-
-   *Server: Flask
-   *API Integration: Flask-RESTful
-   *Database: SQLite
+2. [TestNotifications Class](TestNotifications)
+
+[test_show_word_dialogue](test_show_word_dialogue): 
+
+For TestNotifications, it checks if the show_word_dialogue method correctly calls tkinter.messagebox.showinfo with the expected parameters.
 
 
+3. Running Tests:
+
+The [main](tests/test_main.py) block ensures that if the script is run directly (not imported as a module), the 'unittest.main()' function is called, which discovers and runs the tests.
+
+[Result](https://github.com/roshan4182/language-mastery-app/assets/149868016/864b9b70-af8d-4f15-bce6-1b68b31b700b)
+
+
+## IDE
+
+I have createed this project on Visual Code IDE,and the shortcuts which are my favourite when using this Environment are as follows:
+
+F5 : Run and Debug
+
+Ctrl + ] / Ctrl + [ : Indentation
+
+Ctrl + / : Comment/Uncomment code lines
+
+Ctrl + B : Show or hide the sidebar
+
+
+Ctrl + Shift + P : Open the command palette
+
+
+
+## Functional Programming
+
+In my Language Mastery App, certain functional programming principles are applied. Here's how the code adheres to these principles:
+
+Final Data Structures: The 'data' attribute in [LearnWordApp](TestLearnWordApp) is initialized with the final result of the API call ('response.json()'), representing exchange rates. It remains unmodified afterward.
+
+Side-Effect-Free Functions: The [get_word_data](test_get_word) function has no side effects, performing an HTTP GET request and returning the JSON response without modifying external state. The convert method is also side-effect-free.
+
+
+
+## BUILT USING:
+
+![PYTHON](https://github.com/roshan4182/language-mastery-app/assets/149868016/a86a4844-3fbe-41f8-b1b5-684a8858f82a)![VISUAL CODE](https://github.com/roshan4182/language-mastery-app/assets/149868016/ed594f59-c471-4b44-add6-b3086f142de3)
 
 
 
