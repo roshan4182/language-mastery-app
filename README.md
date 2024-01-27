@@ -116,8 +116,20 @@ DDD is basically an approach of software development which concentrates on what 
 [SonarQube](https://github.com/roshan4182/language-mastery-app/blob/main/Images/SonarQube.png)
 
 
+![quality gate](https://github.com/roshan4182/language-mastery-app/assets/149868016/3ce4db62-9b0a-42c0-9cae-aad5f988f0e9)
 
-[Quality gate_Passed](https://sonarcloud.io/summary/new_code?id=roshan4182_language-mastery-app)
+![bugs](https://github.com/roshan4182/language-mastery-app/assets/149868016/0a23732b-ee7c-4d05-9104-cd7b0ce9912d)
+
+![security](https://github.com/roshan4182/language-mastery-app/assets/149868016/1b28eaa9-7db0-4e02-991a-9b875a46b490)
+
+![maintainability](https://github.com/roshan4182/language-mastery-app/assets/149868016/fa8afefe-7054-44f2-8e49-19e2f44db653)
+
+![technical debt](https://github.com/roshan4182/language-mastery-app/assets/149868016/8159c82d-9ce4-4a53-a065-e7923238a5ce)
+
+
+
+
+[](https://sonarcloud.io/summary/new_code?id=roshan4182_language-mastery-app)
 
 [Reliability](https://sonarcloud.io/project/issues?resolved=false&types=BUG&id=roshan4182_language-mastery-app)
 
