@@ -209,7 +209,8 @@ Side-Effect-Free Functions: The [get_word_data](test_get_word) function has no s
 
 ## BUILT USING:
 
-![PYTHON](https://github.com/roshan4182/language-mastery-app/assets/149868016/a86a4844-3fbe-41f8-b1b5-684a8858f82a)![VISUAL CODE](https://github.com/roshan4182/language-mastery-app/assets/149868016/ed594f59-c471-4b44-add6-b3086f142de3)
+![PYTHON](https://github.com/roshan4182/language-mastery-app/assets/149868016/a86a4844-3fbe-41f8-b1b5-684a8858f82a)
+![VISUAL CODE](https://github.com/roshan4182/language-mastery-app/assets/149868016/ed594f59-c471-4b44-add6-b3086f142de3)
 
 
 
