@@ -1,4 +1,4 @@
-## Language Learning App
+![VISUAL CODE](https://github.com/roshan4182/language-mastery-app/assets/149868016/ed594f59-c471-4b44-add6-b3086f142de3)![PYTHON](https://github.com/roshan4182/language-mastery-app/assets/149868016/a86a4844-3fbe-41f8-b1b5-684a8858f82a)## Language Learning App
 
 ## Overview:-
 
@@ -152,9 +152,45 @@ Clean Code Development (CCD) focuses on writing code that is easy to read, under
 
 ### Build Management: 
 
-Build management for the Language Mastery App project has been implemented using Github Actions
+Build management for the Language Mastery App project has been implemented using [Github Actions](https://github.com/roshan4182/language-mastery-app/actions)
 
-Python CI
+[Python CI](https://github.com/roshan4182/language-mastery-app/actions)
+
+
+
+### Unit Tests
+
+The unit tests has been done in 2 parts and is written using the unittest framework in Python.
+
+Unit Test 1 Unit Test 2
+
+
+
+1. [TestLearnWordApp Class](TestLearnWordApp)
+
+ [test_set_notification_time](test_set_notification_time):
+ For TestLearnWordApp, it uses the unittest.mock.patch decorator to mock the user input and plyer.notification.schedule function. It tests whether the set_notification_time method correctly calls the askstring and schedule functions.
+
+ [test_button_click](test_button_click):
+ The test_button_click method tests if clicking the "Get Word of the Day" button correctly invokes the get_word_of_the_day method.
+
+ [test_get_word](test_get_word):
+ The test_get_word method tests the get_word method of the WordAPI class returns a dictionary with keys "word" and "definition." It is using the unittest framework along with mocking to isolate and test the behavior of the get_word method independently. The assertions verify the expected structure of the output dictionary.
+
+
+2. [TestNotifications Class](TestNotifications)
+
+[test_show_word_dialogue](test_show_word_dialogue): 
+
+For TestNotifications, it checks if the show_word_dialogue method correctly calls tkinter.messagebox.showinfo with the expected parameters.
+
+
+3. Running Tests:
+
+The [main](tests/test_main.py) block ensures that if the script is run directly (not imported as a module), the 'unittest.main()' function is called, which discovers and runs the tests.
+
+[Result](https://github.com/roshan4182/language-mastery-app/assets/149868016/864b9b70-af8d-4f15-bce6-1b68b31b700b)
+
 
 ## IDE
 
@@ -172,19 +208,23 @@ Ctrl + Shift + P : Open the command palette
 
 
 
+## Functional Programming
+
+In my Language Mastery App, certain functional programming principles are applied. Here's how the code adheres to these principles:
+
+Final Data Structures: The 'data' attribute in [LearnWordApp](TestLearnWordApp) is initialized with the final result of the API call ('response.json()'), representing exchange rates. It remains unmodified afterward.
+
+Side-Effect-Free Functions: The [get_word_data](test_get_word) function has no side effects, performing an HTTP GET request and returning the JSON response without modifying external state. The convert method is also side-effect-free.
 
 
 
+## BUILT USING:
 
-## Frontend:-
-   *App Framework: Tkinter
-   *UI/UX Design: canva
-## Backend:-
-   *Server: Flask
-   *API Integration: Flask-RESTful
-   *Database: SQLite
+![Uploading PYTHON.svg…](<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="97.5" height="28" role="img" aria-label="PYTHON"><title>PYTHON</title><g shape-rendering="crispEdges"><rect width="97.5" height="28" fill="#3670a0"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><image x="9" y="7" width="14" height="14" xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZmZkZDU0IiByb2xlPSJpbWciIHZpZXdCb3g9IjAgMCAyNCAyNCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+UHl0aG9uPC90aXRsZT48cGF0aCBkPSJNMTQuMjUuMThsLjkuMi43My4yNi41OS4zLjQ1LjMyLjM0LjM0LjI1LjM0LjE2LjMzLjEuMy4wNC4yNi4wMi4yLS4wMS4xM1Y4LjVsLS4wNS42My0uMTMuNTUtLjIxLjQ2LS4yNi4zOC0uMy4zMS0uMzMuMjUtLjM1LjE5LS4zNS4xNC0uMzMuMS0uMy4wNy0uMjYuMDQtLjIxLjAySDguNzdsLS42OS4wNS0uNTkuMTQtLjUuMjItLjQxLjI3LS4zMy4zMi0uMjcuMzUtLjIuMzYtLjE1LjM3LS4xLjM1LS4wNy4zMi0uMDQuMjctLjAyLjIxdjMuMDZIMy4xN2wtLjIxLS4wMy0uMjgtLjA3LS4zMi0uMTItLjM1LS4xOC0uMzYtLjI2LS4zNi0uMzYtLjM1LS40Ni0uMzItLjU5LS4yOC0uNzMtLjIxLS44OC0uMTQtMS4wNS0uMDUtMS4yMy4wNi0xLjIyLjE2LTEuMDQuMjQtLjg3LjMyLS43MS4zNi0uNTcuNC0uNDQuNDItLjMzLjQyLS4yNC40LS4xNi4zNi0uMS4zMi0uMDUuMjQtLjAxaC4xNmwuMDYuMDFoOC4xNnYtLjgzSDYuMThsLS4wMS0yLjc1LS4wMi0uMzcuMDUtLjM0LjExLS4zMS4xNy0uMjguMjUtLjI2LjMxLS4yMy4zOC0uMi40NC0uMTguNTEtLjE1LjU4LS4xMi42NC0uMS43MS0uMDYuNzctLjA0Ljg0LS4wMiAxLjI3LjA1em0tNi4zIDEuOThsLS4yMy4zMy0uMDguNDEuMDguNDEuMjMuMzQuMzMuMjIuNDEuMDkuNDEtLjA5LjMzLS4yMi4yMy0uMzQuMDgtLjQxLS4wOC0uNDEtLjIzLS4zMy0uMzMtLjIyLS40MS0uMDktLjQxLjA5em0xMy4wOSAzLjk1bC4yOC4wNi4zMi4xMi4zNS4xOC4zNi4yNy4zNi4zNS4zNS40Ny4zMi41OS4yOC43My4yMS44OC4xNCAxLjA0LjA1IDEuMjMtLjA2IDEuMjMtLjE2IDEuMDQtLjI0Ljg2LS4zMi43MS0uMzYuNTctLjQuNDUtLjQyLjMzLS40Mi4yNC0uNC4xNi0uMzYuMDktLjMyLjA1LS4yNC4wMi0uMTYtLjAxaC04LjIydi44Mmg1Ljg0bC4wMSAyLjc2LjAyLjM2LS4wNS4zNC0uMTEuMzEtLjE3LjI5LS4yNS4yNS0uMzEuMjQtLjM4LjItLjQ0LjE3LS41MS4xNS0uNTguMTMtLjY0LjA5LS43MS4wNy0uNzcuMDQtLjg0LjAxLTEuMjctLjA0LTEuMDctLjE0LS45LS4yLS43My0uMjUtLjU5LS4zLS40NS0uMzMtLjM0LS4zNC0uMjUtLjM0LS4xNi0uMzMtLjEtLjMtLjA0LS4yNS0uMDItLjIuMDEtLjEzdi01LjM0bC4wNS0uNjQuMTMtLjU0LjIxLS40Ni4yNi0uMzguMy0uMzIuMzMtLjI0LjM1LS4yLjM1LS4xNC4zMy0uMS4zLS4wNi4yNi0uMDQuMjEtLjAyLjEzLS4wMWg1Ljg0bC42OS0uMDUuNTktLjE0LjUtLjIxLjQxLS4yOC4zMy0uMzIuMjctLjM1LjItLjM2LjE1LS4zNi4xLS4zNS4wNy0uMzIuMDQtLjI4LjAyLS4yMVY2LjA3aDIuMDlsLjE0LjAxem0tNi40NyAxNC4yNWwtLjIzLjMzLS4wOC40MS4wOC40MS4yMy4zMy4zMy4yMy40MS4wOC40MS0uMDguMzMtLjIzLjIzLS4zMy4wOC0uNDEtLjA4LS40MS0uMjMtLjMzLS4zMy0uMjMtLjQxLS4wOC0uNDEuMDh6Ii8+PC9zdmc+"/><text transform="scale(.1)" x="587.5" y="175" textLength="535" fill="#fff" font-weight="bold">PYTHON</text></g></svg>)
 
 
+
+![Uploading VISUAL CODE.svg…]<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="190.5" height="28" role="img" aria-label="VISUAL STUDIO CODE"><title>VISUAL STUDIO CODE</title><g shape-rendering="crispEdges"><rect width="190.5" height="28" fill="#0078d7"/></g><g fill="#fff" text-anchor="middle" font-family="Verdana,Geneva,DejaVu Sans,sans-serif" text-rendering="geometricPrecision" font-size="100"><image x="9" y="7" width="14" height="14" xlink:href="data:image/svg+xml;base64,PHN2ZyBmaWxsPSJ3aGl0ZSIgcm9sZT0iaW1nIiB2aWV3Qm94PSIwIDAgMjQgMjQiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHRpdGxlPlZpc3VhbCBTdHVkaW8gQ29kZTwvdGl0bGU+PHBhdGggZD0iTTIzLjE1IDIuNTg3TDE4LjIxLjIxYTEuNDk0IDEuNDk0IDAgMCAwLTEuNzA1LjI5bC05LjQ2IDguNjMtNC4xMi0zLjEyOGEuOTk5Ljk5OSAwIDAgMC0xLjI3Ni4wNTdMLjMyNyA3LjI2MUExIDEgMCAwIDAgLjMyNiA4Ljc0TDMuODk5IDEyIC4zMjYgMTUuMjZhMSAxIDAgMCAwIC4wMDEgMS40NzlMMS42NSAxNy45NGEuOTk5Ljk5OSAwIDAgMCAxLjI3Ni4wNTdsNC4xMi0zLjEyOCA5LjQ2IDguNjNhMS40OTIgMS40OTIgMCAwIDAgMS43MDQuMjlsNC45NDItMi4zNzdBMS41IDEuNSAwIDAgMCAyNCAyMC4wNlYzLjkzOWExLjUgMS41IDAgMCAwLS44NS0xLjM1MnptLTUuMTQ2IDE0Ljg2MUwxMC44MjYgMTJsNy4xNzgtNS40NDh2MTAuODk2eiIvPjwvc3ZnPg=="/><text transform="scale(.1)" x="1052.5" y="175" textLength="1465" fill="#fff" font-weight="bold">VISUAL STUDIO CODE</text></g></svg>()
 
 
 
