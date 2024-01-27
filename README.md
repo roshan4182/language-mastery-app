@@ -153,6 +153,11 @@ Clean Code Development (CCD) focuses on writing code that is easy to read, under
 
 ### Build Management: 
 
+
+Build management for the Language Mastery App project has been implemented using Github Actions
+
+Python CI
+
 Build management for the Language Mastery App project has been implemented using [Github Actions](https://github.com/roshan4182/language-mastery-app/actions)
 
 [Python CI](https://github.com/roshan4182/language-mastery-app/actions)
@@ -204,6 +209,7 @@ Ctrl + ] / Ctrl + [ : Indentation
 Ctrl + / : Comment/Uncomment code lines
 
 Ctrl + B : Show or hide the sidebar
+
 
 Ctrl + Shift + P : Open the command palette
 
