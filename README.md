@@ -6,18 +6,18 @@ Welcome to Learn_Word, a Python-based application designed to enhance your vocab
 
  ## Table Of Contents: ##
 
-## 1. Code(https://github.com/roshan4182/language-mastery-app/blob/main/README.md#code)
-## 2. Changes in Braches(https://github.com/roshan4182/language-mastery-app#changes_made_with_the_branches)
-## 2.UML Diagrams(https://github.com/roshan4182/language-mastery-app/blob/main/README.md#uml-diagrams)
-## 3.Requirements Engineering(https://github.com/roshan4182/language-mastery-app/blob/main/README.md#requirements-engineering)
-## 4.Analysis(https://github.com/roshan4182/language-mastery-app/blob/main/README.md#analysis)
-## 5.DDD(https://github.com/roshan4182/language-mastery-app#ddd)
-## 6.Metrics(https://github.com/roshan4182/language-mastery-app/tree/main#metrics)
-## 7.Clean Code Development(https://github.com/roshan4182/language-mastery-app/tree/main#clean-code-development)
-## 8.Build Management(https://github.com/roshan4182/language-mastery-app/tree/main#build-management)
-## 9.Unit Tests(https://github.com/roshan4182/language-mastery-app/tree/main#unit-tests)
-## 10.IDE(https://github.com/roshan4182/language-mastery-app#ide)
-## 11.Functional Programming(https://github.com/roshan4182/language-mastery-app#functional-programming)
+## 1. [Code](https://github.com/roshan4182/language-mastery-app/blob/main/README.md#code)
+## 2. [Changes in Braches](https://github.com/roshan4182/language-mastery-app#changes_made_with_the_branches)
+## 2.[UML Diagrams](https://github.com/roshan4182/language-mastery-app/blob/main/README.md#uml-diagrams)
+## 3.[Requirements Engineering](https://github.com/roshan4182/language-mastery-app/blob/main/README.md#requirements-engineering)
+## 4.[Analysis](https://github.com/roshan4182/language-mastery-app/blob/main/README.md#analysis)
+## 5.[DDD](https://github.com/roshan4182/language-mastery-app#ddd)
+## 6.[Metrics](https://github.com/roshan4182/language-mastery-app/tree/main#metrics)
+## 7.[Clean Code Development](https://github.com/roshan4182/language-mastery-app/tree/main#clean-code-development)
+## 8.[Build Management](https://github.com/roshan4182/language-mastery-app/tree/main#build-management)
+## 9.[Unit Tests](https://github.com/roshan4182/language-mastery-app/tree/main#unit-tests)
+## 10.[IDE](https://github.com/roshan4182/language-mastery-app#ide)
+## 11.[Functional Programming](https://github.com/roshan4182/language-mastery-app#functional-programming)
 
 
 ## Code  ##
