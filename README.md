@@ -37,9 +37,7 @@ TO ACCESS THE MAIN CODE : [Language-Mastery-app](https://github.com/roshan4182/l
 
 1. CLASS_DIAGRAM:
 
-This PlantUML diagram illustrates the relationships and dependencies among key entities in a language learning application. The "Word" class represents a vocabulary item with attributes such as id, text, meaning, and translations. Users are represented by the "User" class, which includes attributes like id, username, difficultyLevel, and notificationTime. Learning sessions, depicted by the "LearningSession" class, involve users and are associated with specific words.
-The diagram further introduces the "Language" class, representing different languages in the application. The "WordAPI" class handles interactions with an external word API, defining attributes like API_KEY and WORD_API_URL. Notifications are managed by the "Notifications" class, providing a method to show word dialogues. The application's data persistence is facilitated by the "WordRepository" and "UserRepository" classes, responsible for saving and retrieving word and user data, respectively. The directional associations between entities indicate relationships, such as a word belonging to a learning session, a learning session involving a user, and users being associated with repositories for data management. Overall, the diagram provides a concise overview of the core entities and their interactions within the language learning application.
-
+This PlantUML diagram illustrates the relationships and dependencies among key entities in a language learning application. 
 [Class Diagram](https://github.com/roshan4182/language-mastery-app/blob/main/Images/Class_Diagram2.png)
 
 
@@ -47,17 +45,13 @@ The diagram further introduces the "Language" class, representing different lang
 
 2.  PACKAGE_DIAGRAM:
 
-This PlantUML diagram represents the structure of a hypothetical "language-mastery-app." The app is organized into several components within distinct packages. The "app" package includes main functionality implemented in "main.py," notifications in "notification.py," and interaction with a word API in "word_api.py." The "backend" package comprises an "api" package with an "__init__.py" file and "word_api.py" for API-related functionality, a "database" package with "__init__.py" and "models.py" for database-related functionality, and standalone scripts like "populate_languages.py" and "server.py."
-Additionally, there is a "features" package containing "__init__.py" and "new_features.py" for new app features, a "shared" package with "__init__.py" and "words_api_logic.py" for shared logic, and a "tests" package with "__init__.py" and "test_word_api.py" for testing the word API. The diagram provides a visual representation of the app's structural organization, helping developers understand the relationships and dependencies between different components.
-
+This PlantUML diagram represents the structure of a hypothetical "language-mastery-app." 
 [Package Diagram](https://github.com/roshan4182/language-mastery-app/blob/main/Images/Package_Diagram1.png)
 
 
 3. ACTIVITY_DIAGRAM:
 
-This PlantUML diagram outlines the flow of user interaction within a language learning application. The process begins with the user initiating interaction. The user is then presented with the option to "Set Notification Time." If the user chooses to set the notification time, they proceed to input a specific time in HH:MM:SS format, leading to the successful setting of the notification.
-Subsequently, if the user opts to receive notifications ("User chooses yes"), the application proceeds to fetch the "Word of the Day" from a WordsAPI, displaying a random word and its meaning in a dialogue. The user engages in learning the presented word, and the application adjusts the difficulty level accordingly. The learning process is marked as complete, and the user is shown achievement or level progress. Regardless of the user's choice to receive notifications or not, the interaction loop returns to the initial state, allowing for continuous engagement. This diagram provides a clear visualization of the decision flow in the user's language learning journey within the application.
-
+This PlantUML diagram outlines the flow of user interaction within a language learning application. 
 [Activity Diagram](https://github.com/roshan4182/language-mastery-app/blob/main/Images/Activity_Diagram1.png)
 
 
@@ -99,14 +93,14 @@ Subsequently, if the user opts to receive notifications ("User chooses yes"), th
 ## ANALYSIS:
 
 
-### [Language-Mastery-App Analysis Checklist](https://www.notion.so/Language-Mastery-App-CHECKLIST-7671f3d50e9346a791264111e3678d93?pvs=4)
+### [Language-Mastery-App Analysis Checklist](https://www.notion.so/Clean-Code-Development-5d04cc40c3c54bbcbe1be0351995d89f?pvs=4)
 
 ### [Language-Mastery-App Analysis](https://www.notion.so/Language-Mastery-App-Analysis-299b01216c414780b455faea677fba82?pvs=4)
 
 
 ### DDD: 
 
-DDD is basically an approach of software development which concentrates on what real- world problems a software system has to solve.With the help of shared language(UL) communication between technical and non technical teams are more clearer.In order to simplify the design of the system or the software it uses concepts like Aggregates, Repositories and Domain Events.
+
 
 [pdf](https://github.com/roshan4182/language-mastery-app/blob/main/Docs/DDD.pdf)
 
@@ -162,21 +156,21 @@ The unit tests has been done in 2 parts and is written using the unittest framew
 
 
 
-1. [TestLearnWordApp Class](TestLearnWordApp)
+1. [TestLearnWordApp Class](https://github.com/roshan4182/language-mastery-app/blob/6078ec143bee213d4270ed2bf95be4b113e3af26/tests/test_main.py#L14)
 
- [test_set_notification_time](test_set_notification_time):
+ [test_set_notification_time](https://github.com/roshan4182/language-mastery-app/blob/6078ec143bee213d4270ed2bf95be4b113e3af26/tests/test_main.py#L17):
  For TestLearnWordApp, it uses the unittest.mock.patch decorator to mock the user input and plyer.notification.schedule function. It tests whether the set_notification_time method correctly calls the askstring and schedule functions.
 
- [test_button_click](test_button_click):
+ [test_button_click](https://github.com/roshan4182/language-mastery-app/blob/6078ec143bee213d4270ed2bf95be4b113e3af26/tests/test_main.py#L35):
  The test_button_click method tests if clicking the "Get Word of the Day" button correctly invokes the get_word_of_the_day method.
 
- [test_get_word](test_get_word):
+ [test_get_word](https://github.com/roshan4182/language-mastery-app/blob/6078ec143bee213d4270ed2bf95be4b113e3af26/tests/test_word_api.py#L9C9-L9C22):
  The test_get_word method tests the get_word method of the WordAPI class returns a dictionary with keys "word" and "definition." It is using the unittest framework along with mocking to isolate and test the behavior of the get_word method independently. The assertions verify the expected structure of the output dictionary.
 
 
-2. [TestNotifications Class](TestNotifications)
+2. [TestNotifications Class](https://github.com/roshan4182/language-mastery-app/blob/6078ec143bee213d4270ed2bf95be4b113e3af26/tests/test_main.py#L6)
 
-[test_show_word_dialogue](test_show_word_dialogue): 
+[test_show_word_dialogue](https://github.com/roshan4182/language-mastery-app/blob/6078ec143bee213d4270ed2bf95be4b113e3af26/tests/test_main.py#L8): 
 
 For TestNotifications, it checks if the show_word_dialogue method correctly calls tkinter.messagebox.showinfo with the expected parameters.
 
@@ -209,9 +203,17 @@ Ctrl + Shift + P : Open the command palette
 
 In my Language Mastery App, certain functional programming principles are applied. Here's how the code adheres to these principles:
 
-Final Data Structures: The 'data' attribute in [LearnWordApp](TestLearnWordApp) is initialized with the final result of the API call ('response.json()'), representing exchange rates. It remains unmodified afterward.
+Final Data Structures: The 'data' attribute in [LearnWordApp](https://github.com/roshan4182/language-mastery-app/blob/main/app/main.py) is initialized with the final result of the API call ('response.json()'), representing random words and their definitions. It remains unmodified afterward.
 
-Side-Effect-Free Functions: The [get_word_data](test_get_word) function has no side effects, performing an HTTP GET request and returning the JSON response without modifying external state. The convert method is also side-effect-free.
+Side-Effect-Free Functions: The [get_word_data](https://github.com/roshan4182/language-mastery-app/blob/6078ec143bee213d4270ed2bf95be4b113e3af26/tests/test_word_api.py#L9) function has no side effects, performing an HTTP GET request and returning the JSON response without modifying external state. The convert method is also side-effect-free.
+
+Higher-Order Functions: The [requests.get](https://github.com/roshan4182/language-mastery-app/blob/6078ec143bee213d4270ed2bf95be4b113e3af26/shared/words_api_logic.py#L10)function in 'get_word_data' is a higher-order function, taking a URL as an argument and returning a function ('get') that performs an HTTP GET request.
+
+Functions as Parameters and Return Values: method [__init__](https://github.com/roshan4182/language-mastery-app/blob/6078ec143bee213d4270ed2bf95be4b113e3af26/app/main.py#L15) function asks user for a parameter to set notification timing, difficulty level.
+
+Closures / Anonymous Functions: While 'lambda' functions are not explicitly used, functions passed to the command attribute of buttons can be considered as anonymous functions.
+
+
 
 
 
