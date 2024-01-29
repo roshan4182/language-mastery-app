@@ -1,4 +1,4 @@
-## Language Learning App
+![Screenshot 2024-01-29 at 7 47 20 PM](https://github.com/roshan4182/language-mastery-app/assets/149868016/e7483413-94f0-43db-a1e2-1ee7efe3ad9b)## Language Learning App
 
 ## Overview:-
 
@@ -75,18 +75,18 @@ This PlantUML diagram outlines the flow of user interaction within a language le
 5. Monitoring and Analytics.
 6. Documentation.
 
+
+## [Jira](https://privaterelay-nj5tfybqkh.atlassian.net/jira/software/projects/STUD/boards/2?atlOrigin=eyJpIjoiZTNkZTk0N2I1ODJjNGRjYWI4OTE3N2MxM2UxOGE1YjIiLCJwIjoiaiJ9)
+
+** Kanboard **
+ 
+>> ![Screenshot](https://github.com/roshan4182/language-mastery-app/assets/149868016/d330091b-c9b9-47af-b287-52f018a3c206)
+
 ## [Trello](https://trello.com/b/vrps9Md5/language-mastery-app)
 
  ** Tasklist **
  >>  [Screenshot1](https://github.com/roshan4182/language-mastery-app/blob/main/Images/Trello1.png)
  >>  [Screenshot2](https://github.com/roshan4182/language-mastery-app/blob/main/Images/Trello2.png)
-
-## [Jira](https://privaterelay-nj5tfybqkh.atlassian.net/jira/software/projects/STUD/boards/2?atlOrigin=eyJpIjoiMGY1NDRhMGQ3M2FjNDE3N2JkYzM5MmE3ZWE5NWNjYzciLCJwIjoiaiJ9)
-
-** Kanboard **
- >> [Screenshot1](https://github.com/roshan4182/language-mastery-app/blob/main/Images/Jira1.png)
- >> [Screenshot2](https://github.com/roshan4182/language-mastery-app/blob/main/Images/Jira2.png)
-
 
 
 
