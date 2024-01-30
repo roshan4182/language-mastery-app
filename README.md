@@ -95,7 +95,7 @@ This PlantUML diagram outlines the flow of user interaction within a language le
 
 ### [Language-Mastery-App Analysis Checklist](https://www.notion.so/Clean-Code-Development-5d04cc40c3c54bbcbe1be0351995d89f?pvs=4)
 
-### [Language-Mastery-App Analysis](https://www.notion.so/Language-Mastery-App-Analysis-299b01216c414780b455faea677fba82?pvs=4)
+### [Language-Mastery-App Analysis](https://working-ferret-9b4.notion.site/Language-Mastery-App-Analysis-299b01216c414780b455faea677fba82)
 
 
 ### DDD: 
