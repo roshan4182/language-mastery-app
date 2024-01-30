@@ -1,4 +1,4 @@
-![Screenshot 2024-01-29 at 7 47 20 PM](https://github.com/roshan4182/language-mastery-app/assets/149868016/e7483413-94f0-43db-a1e2-1ee7efe3ad9b)## Language Learning App
+
 
 ## Overview:-
 
